@@ -1,11 +1,7 @@
 <div align="center">
-
-<!-- Animated Typing Header -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000000&color=FFFFFF&width=600&lines=Hey%2C+I'm+Afsan+Ahmed+P+M+%F0%9F%91%8B" alt="Static Header" />
-
+  <h1>Hey, I'm Afsan Ahmed P M 👋</h1>
 </div>
 
----
 
 ## About Me
 
