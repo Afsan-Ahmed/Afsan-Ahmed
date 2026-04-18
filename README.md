@@ -2,15 +2,17 @@
   <h1>Hey, I'm Afsan Ahmed 👋</h1>
 </div>
 
+---
 
 ## About Me
 
-Cloud security engineer who automates the boring stuff so humans can focus on the hard problems. Currently building AI-powered tools and securing AWS infrastructure at scale.
+Cloud Security Engineer | AWS | IAM | Automation | DevOps  
+Building event-driven security systems for real-time threat detection and remediation in cloud environments.
 
-- 🎓 **Student** @ B.S. Abdur Rahman Crescent Institute of Science and Technology, Chennai
-- Obsessed with **cloud security automation** and **AI integration**
-- Published researcher at **IEEE ICETS 2025** on real-time eye disease detection using deep learning
-- I turn manual security audits into lambda functions
+- 🎓 B.Tech CSE @ B.S. Abdur Rahman Crescent Institute of Science and Technology  
+- Focused on **cloud security automation & DevSecOps**  
+- Published researcher at **IEEE ICETS 2025**  
+- I turn manual security operations into automated cloud systems  
 
 ---
 
@@ -33,80 +35,81 @@ Cloud security engineer who automates the boring stuff so humans can focus on th
 ![EventBridge](https://img.shields.io/badge/AWS_EventBridge-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![IAM](https://img.shields.io/badge/AWS_IAM-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-### AI & Machine Learning
-![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-
 ---
 
 ## 🔥 Featured Projects
 
-### ⚡ [Cloud Security Monitoring & Automated Response System](https://github.com/AlastairBss/Cloud-Security-Automation.git)
+### 🛡️ AWS Security Posture Management (SPM) Platform
+**Real-time cloud security scoring, threat detection & auto-remediation system**
+
+Built an event-driven security platform that continuously monitors AWS environments, evaluates against CIS Benchmarks, and automatically remediates critical threats in real-time.
+
+**Architecture:** EventBridge → Lambda → DynamoDB → Streamlit Dashboard  
+
+**Key Features:**
+- Real-time security scoring (0–100) based on CIS Benchmark checks  
+- Automated threat detection using GuardDuty, CloudTrail, Config, Security Hub, IAM Access Analyzer  
+- Auto-remediation of compromised IAM keys (disable + attach deny policy in under 10 seconds)  
+- Event-driven incident response pipeline using Lambda and EventBridge  
+- Full audit trail of all actions stored in DynamoDB  
+- Weekly compliance reports generated and delivered via SNS  
+- Live dashboard using Streamlit for security visibility  
+
+**Challenges Solved:**
+- Eliminated duplicate event triggers using filtering + idempotency logic  
+- Prevented unsafe automation using dry-run validation mode  
+- Reduced security response time from minutes → under 10 seconds  
+
+**Tech Stack:**  
+`AWS Lambda` `EventBridge` `DynamoDB` `GuardDuty` `CloudTrail` `Security Hub` `IAM` `Config` `SNS` `S3` `Streamlit` `Python`
+
+---
+
+### ⚡ Event-Driven IAM Threat Detection & Response System
 **Real-time threat detection and auto-remediation**
 
-Automated security response system that catches suspicious IAM activity in real-time using **AWS CloudTrail** and **EventBridge**. When a rogue access key is detected, Lambda functions automatically disable it and quarantine the user via SSM Automation.
+Automated security response system that detects suspicious IAM activity using CloudTrail and EventBridge. Lambda functions disable compromised keys and quarantine users automatically.
 
-**Impact:** Response time reduced from hours → seconds
+**Impact:** Response time reduced from hours → under 10 seconds  
 
 `AWS CloudTrail` `EventBridge` `Lambda` `SSM Automation` `Python`
 
 ---
 
-### [IAM Security Audit Tool](https://github.com/AlastairBss/IAM-Audit-Tool.git)
-**Automated daily security compliance scanner**
+### 🔐 IAM Security Audit Tool
+**Automated security compliance scanner**
 
-AWS Lambda function that scans all IAM users for security misconfigurations (missing MFA, old access keys, overprivileged permissions) and sends detailed email reports. Scheduled to run daily via EventBridge.
+Lambda-based tool that scans IAM configurations for vulnerabilities (MFA gaps, stale credentials, excessive permissions) and generates automated reports.
 
-**Impact:** Manual audit time reduced from 2 hours → 30 seconds
+**Impact:** Manual audit reduced from 2 hours → 30 seconds  
 
 `AWS Lambda` `IAM` `EventBridge` `Python` `Boto3`
 
 ---
 
-### [Inbox Intelligence](https://inbox-intelligence.streamlit.app/)
-**AI-powered email organizer**
+### 🚀 Containerized Microservices on ECS Fargate
+**Production-grade deployment pipeline**
 
-Gmail integration that uses AI to automatically categorize emails into action-required, updates, academic, and noise. Built with FastAPI backend (OAuth + Gmail API) and Streamlit dashboard frontend.
-
-**Features:** Real-time categorization, search filtering, quick Gmail links, clutter reduction
-
-`FastAPI` `Streamlit` `Google OAuth` `AI Classification` `Gmail API`
-
----
-
-### [Containerized Microservices on ECS Fargate](https://github.com/AlastairBss/cloud-microservices-deployment/tree/main/microservices-project)
-**Production-grade serverless container deployment**
-
-Fully automated CI/CD pipeline deploying containerized microservices to AWS ECS Fargate with Application Load Balancer traffic distribution and auto-scaling.
+Deployed containerized applications using ECS Fargate with load balancing and CI/CD automation.
 
 `ECS Fargate` `Docker` `ALB` `CI/CD` `Auto Scaling`
 
 ---
 
-### 🌐 [Highly Available AWS Web App]([https://github.com/AlastairBss](https://github.com/AlastairBss/aws-webapp-terraform.git))
+### 🌐 Highly Available AWS Web App
 **Infrastructure as Code with Terraform**
 
-Production-style AWS infrastructure featuring Application Load Balancer, Auto Scaling Groups, private EC2 instances, NAT gateway networking, and multi-AZ high availability. All provisioned via Terraform.
+Designed scalable multi-AZ architecture with Auto Scaling, Load Balancer, and Terraform-based provisioning.
 
-`Terraform` `ALB` `Auto Scaling` `NAT Gateway` `Multi-AZ`
+`Terraform` `ALB` `Auto Scaling` `Multi-AZ`
 
 ---
 
 ## 🏆 Achievements
 
-### 📄 [IEEE Published Researcher](https://drive.google.com/file/d/1UaT7Cqws6sDo05PaaWebk011N_gvpSql/view?usp=sharing)
-**Paper:** *Real-Time Eye Disease Detection Using Deep Learning & OpenCV*  
-**Conference:** 9th International Conference on Engineering Technology and Science (ICETS' 25)  
-**Date:** March 28, 2025 | Muthayammal College of Engineering, Tamil Nadu
-
-Presented research on applying deep learning models and OpenCV for automated real-time eye disease detection.
-
----
-
-### Currently Working On
-- Publishing a second research paper to **IEEE Springerboard**
-- Scaling cloud security automation tools for enterprise use
-- Building AI-integrated AWS workflows
+### 📄 IEEE Published Researcher
+**Paper:** Real-Time Eye Disease Detection Using Deep Learning & OpenCV  
+**Conference:** ICETS 2025  
 
 ---
 
@@ -114,11 +117,11 @@ Presented research on applying deep learning models and OpenCV for automated rea
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AlastairBss&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Afsan-Ahmed&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AlastairBss&layout=compact&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Afsan-Ahmed&layout=compact&theme=tokyonight&hide_border=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AlastairBss&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Afsan-Ahmed&theme=tokyonight&hide_border=true)
 
 </div>
 
@@ -128,10 +131,10 @@ Presented research on applying deep learning models and OpenCV for automated rea
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://afsan.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/afsan-ahmed-pm-27aa10288/)
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Afsan-Ahmed)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:afsanahmedpm@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=firefox)](https://afsan.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/linkedin-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/afsanpm/)
+[![GitHub](https://img.shields.io/badge/github-black?style=for-the-badge&logo=github)](https://github.com/Afsan-Ahmed)
+[![Gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail)](mailto:afsanahmedpm@gmail.com)
 
 </div>
 
@@ -139,8 +142,6 @@ Presented research on applying deep learning models and OpenCV for automated rea
 
 <div align="center">
 
-### 💡 *"Automate the boring, secure the critical, ship the impossible."*
-
-![Profile Views](https://komarev.com/ghpvc/?username=AlastairBss&color=blue&style=flat-square)
+### 💡 *Automate the boring. Secure the critical.*
 
 </div>
